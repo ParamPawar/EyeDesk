@@ -29,7 +29,9 @@ android {
 }
 
 dependencies {
-
+    //websocket on npm showing the 1.0.35 soo might wrong 
+    implementation('org.java-websocket:Java-WebSocket:1.5.2')
+    implementation('io.socket:socket.io-client:4.7.5')
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
